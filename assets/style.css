@@ -1,18 +1,26 @@
-#header {
-    position: fixed;
-    left: 50px;
-    font-size: 50px;
-    font-family: cursive;
+* {
+    margin: auto;
+    padding: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    align-items: center;
 }
+
+#header {
+    left: 0px;
+    font-size: 50px;
+}
+
+
 
 .container {
     border-radius: 5px;
     background-color: lightblue;
     padding: 20px;
+    width: 800px;
 }
 
 .button {
-
     background-color: #EEEEEE;
     color: #333333;
     padding: 2px 6px 2px 6px;
@@ -20,6 +28,5 @@
   }
 
 footer {
-    text-align: center;
     font-size: 10px;
 }
