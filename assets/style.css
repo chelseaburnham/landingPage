@@ -6,12 +6,18 @@
     align-items: center;
 }
 
-#header {
-    left: 0px;
+header {
+    position: fixed;
+    display: inline;
+}
+
+header h1 {
     font-size: 50px;
 }
 
-
+a {
+    color: black;
+}
 
 .container {
     border-radius: 5px;
@@ -21,12 +27,12 @@
 }
 
 .button {
-    background-color: #EEEEEE;
-    color: #333333;
+    background-color: lightgray;
+    color: black;
     padding: 2px 6px 2px 6px;
-    border: 2px solid black;
+    border: 1px solid black;
   }
 
-footer {
+#footer {
     font-size: 10px;
 }
